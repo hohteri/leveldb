@@ -19,7 +19,7 @@
   "requires_arc": false,
   "pod_target_xcconfig": {
     "GCC_PREPROCESSOR_DEFINITIONS": "LEVELDB_IS_BIG_ENDIAN=0 LEVELDB_PLATFORM_POSIX HAVE_FULLFSYNC=1",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/leveldb-library\" \"${PODS_ROOT}/leveldb-library/include\"",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../../leveldb\" \"${PODS_ROOT}/../../../leveldb/include\"",
     "WARNING_CFLAGS": "-Wno-shorten-64-to-32 -Wno-comma -Wno-unreachable-code -Wno-conditional-uninitialized -Wno-deprecated-declarations",
     "USE_HEADERMAP": "No"
   },
